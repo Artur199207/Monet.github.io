@@ -13,8 +13,6 @@ a {
 }
 
 
-/* Header Navigation start */
-
 .wrapper-header {
     position: relative;
     width: 100%;
@@ -124,23 +122,228 @@ a {
 }
 
 .wrapper-dropdown-menu.open {
-    height: calc(90vh);
+    height: calc(85vh);
 }
 
 .closeIcon {
     display: none;
 }
 
-/* Header Navigation end */
+.wrapper-open-lenguage {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.wrapper-open-lenguage .dropdown-toggle {
+    background: linear-gradient(0deg, #001447, #001447),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF) !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 8px !important;
+    padding: 1px;
+}
+
+.wrapper-open-lenguage .dropdown-toggle:hover {
+    background: #FFB25F !important;
+    border: 1px solid #FFB25F !important;
+}
+
+.closeIcon {
+    cursor: pointer;
+}
+
+
+.wrapper-background {
+    width: 100%;
+    min-height: 739px;
+    background-image: url(../img/background.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.container-vector1 {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.container-vector2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.container-group {
+    position: absolute;
+    top: 72%;
+    left: 53px;
+}
+
+.container-block-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: absolute;
+    top: 33%;
+    left: 14%;
+}
+
+.container-block-welcome h3 {
+    width: 639px;
+    font-family: Montserrat arm;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #F6F6F6;
+
+
+}
+
+.container-block-welcome h2 {
+
+    font-family: Montserrat arm;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+}
+
+.container-welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container-block-welcome span {
+    width: 639px;
+    font-family: Montserrat arm;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #F6F6F6;
+
+}
+
+.container-block-welcome button {
+    width: 288px;
+    height: 44px;
+    padding: 12px, 32px, 12px, 32px;
+    border: none;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #FFB763 10.52%, #FF7233 78.75%);
+
+}
+
+.container-vector3{
+    width: 346.45px;
+    height: 346.45px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 45%;
+    background-blend-mode: overlay;
+    mix-blend-mode: overlay;
+    bottom: 81%;
+}
+
+.container-vector4{
+    position: absolute;
+    left: 49%;
+    bottom: 98%;
+}
+.container-vector5{
+    position: absolute;
+    top: 25%;
+    left: 46%;
+}
+.container-img-vector6{
+    width: 620px;
+    height: 620px;
+    background-image: url(../img/Vector6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    left: 54%;
+    top: 166px;
+    overflow: hidden;
+    z-index: 10;
+}
+.container-vector7{
+    position: absolute;
+    left: 56%;
+    top: 140px;
+}
+.container-vector8{
+    position: absolute;
+    left: 55%;
+    top: 43%;
+}
+
+.container-vector9{
+    position: absolute;
+    top: 87%;
+    left: 28%;
+}
+.container-vector10{
+    width: 238px;
+    position: absolute;
+    top: 178px;
+    left: 68px;
+}
+.container-vector11{
+    width: 223px;
+    position: absolute;
+    left: 49%;
+    top: 76px;
+}
+.container-vector13{
+    position: absolute;
+    left: 83%;
+    bottom: 34px;
+    z-index: 20;
+}
+.container-vector14{
+    position: absolute;
+    bottom: 71%;
+    left: 80%;
+}
+
+.container-working{
+    position: relative;
+    width: 100%;
+    min-height: 592px;
+    background-image: url(../img/Ellipse.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 68px;
+    z-index: 50;
+}
 
 
 
 
 
 
-
-
-/* RESPONSIVE DESIGN */
 @media (max-width:700px) {
 
     .wrapper-navbar .links,
@@ -153,6 +356,10 @@ a {
     }
 
     .wrapper-dropdown-menu {
+        display: block;
+    }
+
+    .wrapper-dropdown-menu .closeIcon {
         display: block;
     }
 }

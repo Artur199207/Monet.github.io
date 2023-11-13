@@ -14,6 +14,7 @@ toggleBtn.onclick = function(){
 }
 document.querySelector('.closeIcon').onclick = function(){
     
-    document.querySelector('.closeIcon').style.display = 'none'
-    document.querySelector('.openIcon').style.display = 'block'
+   dropDownOpen.style.display = 'none';
+   document.querySelector('.openIcon').style.display = 'block'
+
 }
