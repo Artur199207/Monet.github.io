@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header Navigation start */
+
+.wrapper-header {
+    position: relative;
+    width: 100%;
+    padding: 0.2rem;
+    background: #01164E;
+
+}
+
+.links li a {
+    font-family: Montserrat arm;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.links {
+    margin-bottom: 0 !important;
+}
+
+.wrapper-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-navbar .links {
+    display: flex;
+    gap: 2rem;
+}
+
+.wrapper-navbar .toggle-btn {
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown-toggle span {
+    font-family: Montserrat arm;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.dropdown {
+    background: linear-gradient(0deg, #001447, #001447),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF) !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 8px !important;
+    padding: 1px;
+}
+
+
+.dropdown:hover {
+    background: #FFB25F !important;
+    border: 1px solid #FFB25F !important;
+}
+
+.dropdown:hover span {
+    color: #001447;
+}
+
+.btn.btn-secondary {
+    background: none !important;
+}
+
+.dropdown-menu {
+    min-width: 7rem !important;
+    transform: translate3d(0px, 43px, 0px);
+    background: #FFFFFF !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 8px !important;
+    padding: 1px;
+    text-align: center !important;
+}
+
+.dropdown-item span {
+    width: 36px;
+    min-height: 20px;
+    font-family: Montserrat arm;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #212121;
+
+}
+
+.wrapper-dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: calc(80%);
+    height: 0;
+    background: #001447;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.wrapper-dropdown-menu.open {
+    height: calc(90vh);
+}
+
+.closeIcon {
+    display: none;
+}
+
+/* Header Navigation end */
+
+
+
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media (max-width:700px) {
+
+    .wrapper-navbar .links,
+    .wrapper-navbar .dropdown {
+        display: none;
+    }
+
+    .wrapper-navbar .toggle-btn {
+        display: block;
+    }
+
+    .wrapper-dropdown-menu {
+        display: block;
+    }
+}
