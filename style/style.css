@@ -37,6 +37,15 @@ a {
 .links {
   margin-bottom: 0 !important;
 }
+.links li:hover a{
+  color: #FFB763;
+
+}
+.links li:active a{
+  color: #FF7233;
+
+
+}
 
 .wrapper-navbar {
   display: flex;
@@ -184,7 +193,7 @@ a {
 
 .container-group {
   position: absolute;
-  top: 64%;
+  top: 40%;
   left: 53px;
 }
 
@@ -194,7 +203,7 @@ a {
   align-items: flex-start;
   gap: 25px;
   position: absolute;
-  top: 25%;
+  top: 15%;
   left: 13%;
 }
 
@@ -241,10 +250,13 @@ a {
 .container-block-welcome button {
   width: 288px;
   height: 44px;
-  padding: 12px, 32px, 12px, 32px;
-  border: none;
+  padding: 12px, 32px, 12px, 32px;  border: none;
   border-radius: 32px;
   background: linear-gradient(180deg, #ffb763 10.52%, #ff7233 78.75%);
+}
+.container-block-welcome:hover button{
+  background: #FFB25F;
+
 }
 
 .container-vector3 {
@@ -252,7 +264,7 @@ a {
   height: 346.45px;
   flex-shrink: 0;
   position: absolute;
-  left: 45%;
+  left: 39%;
   background-blend-mode: overlay;
   mix-blend-mode: overlay;
   bottom: 81%;
@@ -271,30 +283,20 @@ a {
 }
 
 .container-img-vector6 {
-  width: 620px;
-  height: 620px;
-  background-image: url(../img/Vector6.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  position: relative;
-  left: 54%;
-  top: 64px;
-  overflow: hidden;
-  z-index: 10;
+     width: 620px;
+    height: 620px;
+    background-image: url(../img/22222.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    left: 49%;
+    top: 187px;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.container-vector7 {
-  position: absolute;
-  left: 56%;
-  top: 76px;
-}
 
-.container-vector8 {
-  position: absolute;
-  left: 52%;
-  top: 43%;
-}
 
 .container-vector9 {
   position: absolute;
@@ -302,19 +304,8 @@ a {
   left: 28%;
 }
 
-.container-vector10 {
-  width: 238px;
-  position: absolute;
-  top: 178px;
-  left: 68px;
-}
 
-.container-vector11 {
-  width: 223px;
-  position: absolute;
-  left: 49%;
-  top: 76px;
-}
+
 
 .container-vector13 {
   position: absolute;
@@ -327,7 +318,7 @@ a {
   position: absolute;
   bottom: 77%;
   left: 85%;
-  width: 250px
+  width: 364px
 }
 
 .container-working {
@@ -338,8 +329,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  bottom: 177px;
-  z-index: 50;
+  z-index: 5;
 }
 
 .container-position-flex {
@@ -592,6 +582,7 @@ a {
   flex-direction: column;
   width: 100%;
   position: relative;
+  overflow: hidden;
   background: linear-gradient(99.81deg, #0A30A3 -0.37%, #001447 55.23%);
 }
 
@@ -843,6 +834,10 @@ a {
   color: #001447;
   border: none;
 }
+.container-button-click:hover button{
+  background: #FFB25F;
+
+}
 
 .vector-svg30 {
   position: absolute;
@@ -928,6 +923,14 @@ color: #FFFFFFB2;
 cursor: pointer;
 text-decoration: none;
 }
+.container-footer-menu li:hover a{
+  color: #FFB763;
+
+}
+.container-footer-menu li:active a{
+  color:  #FF7233;
+
+}
 .container-input-email{
   width: 274px;
   background: 
@@ -955,6 +958,10 @@ padding: 10px;
 
 border-radius: 0px 8px 8px 0px;
 }
+.container-menu-form:hover button{
+  background: #FFB25F;
+
+}
 .container-menu-form>button span{
   font-family: Montserrat arm;
   font-size: 18px;
@@ -981,6 +988,7 @@ border-radius: 0px 8px 8px 0px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  gap: 5px;
 }
 .wrapper-content-lineFotter{
   max-width: 1300px;
