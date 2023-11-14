@@ -18,9 +18,11 @@ a {
   padding: 0.2rem;
   background: #01164e;
 }
+
 .logo a img {
   padding: 16px 16px;
 }
+
 .links li a {
   font-family: Montserrat arm;
   font-size: 18px;
@@ -167,7 +169,7 @@ a {
 .container-vector1 {
 
   position: absolute;
-width: 268px;
+  width: 268px;
   top: 0;
   left: 0;
   z-index: 1;
@@ -177,12 +179,12 @@ width: 268px;
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 500px;
+  width: 480px;
 }
 
 .container-group {
   position: absolute;
-  top: 66%;
+  top: 64%;
   left: 53px;
 }
 
@@ -261,11 +263,13 @@ width: 268px;
   left: 49%;
   bottom: 98%;
 }
+
 .container-vector5 {
   position: absolute;
   top: 25%;
   left: 46%;
 }
+
 .container-img-vector6 {
   width: 620px;
   height: 620px;
@@ -279,11 +283,13 @@ width: 268px;
   overflow: hidden;
   z-index: 10;
 }
+
 .container-vector7 {
   position: absolute;
   left: 56%;
   top: 76px;
 }
+
 .container-vector8 {
   position: absolute;
   left: 52%;
@@ -295,29 +301,33 @@ width: 268px;
   top: 73%;
   left: 28%;
 }
+
 .container-vector10 {
   width: 238px;
   position: absolute;
   top: 178px;
   left: 68px;
 }
+
 .container-vector11 {
   width: 223px;
   position: absolute;
   left: 49%;
   top: 76px;
 }
+
 .container-vector13 {
   position: absolute;
   left: 83%;
   bottom: 142px;
   z-index: 20;
 }
+
 .container-vector14 {
-    position: absolute;
-    bottom: 77%;
-    left: 85%;
-    width: 250px
+  position: absolute;
+  bottom: 77%;
+  left: 85%;
+  width: 250px
 }
 
 .container-working {
@@ -331,6 +341,7 @@ width: 268px;
   bottom: 177px;
   z-index: 50;
 }
+
 .container-position-flex {
   position: relative;
   top: 117px;
@@ -361,6 +372,7 @@ width: 268px;
   text-align: left;
   color: #f6f6f6;
 }
+
 .container-col-left {
   display: flex;
   flex-direction: column;
@@ -368,6 +380,7 @@ width: 268px;
   justify-content: center;
   gap: 8px;
 }
+
 .container-col-left h3 {
   width: 135px;
   font-family: Montserrat arm;
@@ -378,6 +391,7 @@ width: 268px;
   text-align: center;
   color: #b3dd62;
 }
+
 .container-col-left span {
   width: 244px;
   font-family: Montserrat arm;
@@ -388,6 +402,7 @@ width: 268px;
   text-align: center;
   color: #ffffffb2;
 }
+
 .container-col-left1 {
   display: flex;
   flex-direction: column;
@@ -395,6 +410,7 @@ width: 268px;
   align-items: center;
   gap: 8px;
 }
+
 .container-col-left1 h3 {
   width: 228px;
   font-family: Montserrat arm;
@@ -405,6 +421,7 @@ width: 268px;
   text-align: center;
   color: #b3dd62;
 }
+
 .container-col-left1 span {
   width: 317px;
   font-family: Montserrat arm;
@@ -415,6 +432,7 @@ width: 268px;
   text-align: center;
   color: #ffffffb2;
 }
+
 .container-col-left2 {
   display: flex;
   flex-direction: column;
@@ -422,6 +440,7 @@ width: 268px;
   justify-content: center;
   gap: 8px;
 }
+
 .container-col-left2 h3 {
   width: 101px;
   font-family: Montserrat arm;
@@ -432,6 +451,7 @@ width: 268px;
   text-align: center;
   color: #b3dd62;
 }
+
 .container-col-left2 span {
   width: 294px;
   font-family: Montserrat arm;
@@ -442,20 +462,170 @@ width: 268px;
   text-align: center;
   color: #ffffffb2;
 }
-.col-sm{
-   padding-right: 0 !important;
-   padding-left: 0 !important;
-}
-.content-flex{
-    align-items: center;
-}
-.container-vector30{
-    position: absolute;
-    left: 72%;
-    bottom: 7%;
+
+.col-sm {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
+.content-flex {
+  align-items: center;
+}
+
+.container-vector30 {
+  position: absolute;
+  left: 72%;
+  bottom: 7%;
+}
+.container-vector31{
+  position: absolute;
+    left: 55%;
+    top: 83%;
+    width: 85px;
+}
+.container-vector32{
+  position: absolute;
+  bottom: 78%;
+  left: 12%;
+}
+.container-vector33{
+  position: absolute;
+    bottom: 80%;
+    left: 27%;
+}
+.wrapper-section-vectors{
+  width: 100%;
+  min-height: 880px;
+  background-image: url(../img/vector-section1.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.wrapper-image-logo{
+  position: relative;
+}
+
+.wrapper-info-ellips{
+  position: relative;
+  width: 575px;
+  left: 50%;
+  top: 300px;
+}
+.container-ellips-image{
+  width: 500px;
+  position: absolute;
+  top: 113px;
+  left: 14%;
+}
+.wrapper-info-ellips h3{
+  width: 575px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+.wrapper-info-ellips span{
+  width: 518px;
+font-family: Montserrat arm;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFFB2;
+
+}
+.container-vector39{
+  position: absolute;
+  top: 69%;
+  left: 46%;
+}
+.container-vector40{
+  position: absolute;
+    left: 77%;
+    bottom: 65%;
+    width: 244px;
+}
+.container-vector41{
+  position: absolute;
+  left: 81%;
+  top: 183px;
+  width: 100px;
+}
+.container-vector42{
+  position: absolute;
+    width: 300px;
+    top: 85%;
+    left: 73%;
+    z-index: 2;
+}
+.container-vector36{
+  position: absolute;
+  top: 95%;
+  left: 138px;
+  z-index: 2;
+}
+.wrapper-section3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  background: linear-gradient(99.81deg, #0A30A3 -0.37%, #001447 55.23%);
+}
+.wrapper-section3-content{
+  padding: 130px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.werapper-content-col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.werapper-content-col h3{
+  width: 749px;
+font-family: Montserrat arm;
+font-size: 30px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #B3DD62;
+
+}
+.werapper-content-col>span{
+  width: 525px;
+font-family: Montserrat arm;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFFB2;
+
+}
+.wrapper-image-people{
+  width: 500px;
+}
+
+
+
+
+
+
 @media (max-width: 700px) {
+
   .wrapper-navbar .links,
   .wrapper-navbar .dropdown {
     display: none;
@@ -473,7 +643,9 @@ width: 268px;
     display: block;
   }
 }
+
 @media (min-width: 1200px) {
+
   .container,
   .container-lg,
   .container-md,
