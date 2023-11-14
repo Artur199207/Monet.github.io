@@ -841,6 +841,7 @@ z-index: 4;
   flex-shrink: 0;
   background: #001447;
   box-shadow: 0px 4px 30px 0px rgba(22, 127, 252, 1);
+  overflow: hidden;
 }
 .wrapper-content-navheader {
   padding: 60px 0px !important;
