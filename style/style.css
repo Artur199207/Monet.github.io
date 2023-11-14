@@ -314,9 +314,10 @@ width: 268px;
   z-index: 20;
 }
 .container-vector14 {
-  position: absolute;
-  bottom: 71%;
-  left: 80%;
+    position: absolute;
+    bottom: 77%;
+    left: 85%;
+    width: 250px
 }
 
 .container-working {
@@ -450,8 +451,8 @@ width: 268px;
 }
 .container-vector30{
     position: absolute;
-    left: 76%;
-    bottom: 6%;
+    left: 72%;
+    bottom: 7%;
 }
 
 @media (max-width: 700px) {
