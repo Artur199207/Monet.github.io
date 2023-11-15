@@ -1247,7 +1247,240 @@ text-align: center;
 color: #F6F6F6B2;
 
 }
+.container-documents{
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper-about-document{
+  width: 100%;
+  min-height: 1189px;
+  background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
+position: relative;
+}
+.wrapper-backImage{
+  position: relative;
+  width: 100%;
+}
+.documentimage-content{
+  width: 210px;
+    min-height: 210px;
+    background-image: url(../img/aboute/documentimage.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-blend-mode: overlay;
+    mix-blend-mode: overlay;
+    left: 77%;
+}
+.aboute-vector{
+  position: absolute;
+  width: 125px;
+  min-height: 125px;
+  background-image: url(../img/aboute/about-vector.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 78%;
+  top: 188px;
+}
+.aboute-vectore1{
+  width: 721px;
+  min-height: 369px;
+  background-image: url(../img/aboute/aboute-vector1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 520px;
+  left: 39%;
+}
+.wrapper-aboute-menuHub{
+  position: relative;
+  top: 100px;
+  left: 14%;
 
+}
+.wrapper-aboute-menuHub h1{
+  width: 281px;
+  min-height: 48px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #F6F6F6;
+padding: 50px 0px;
+}
+.navbar-menu-aboute{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.navbar-menu-aboute li a{
+text-decoration: none;
+width: 691px;
+min-height: 34px;
+font-family: Montserrat arm;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+color: #F6F6F6B2;
+
+}
+.navbar-menu-aboute li:hover a{
+  color: #FFB763;
+
+}
+.navbar-menu-aboute li:active a{
+  color: #FF7233;
+
+
+}
+.container-contacts{
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper-contacts-info{
+  width: 100%;
+  min-height: 790px;
+  background: #011855;
+
+}
+.container-contacts-image{
+  position: relative;
+  width: 100%;
+}
+.wrapper-group0010{
+  width: 478px;
+    min-height: 879px;
+    background-image: url(../img/aboute/vv.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 77%;
+    transform: rotate(304deg);
+    top: -229px;
+}
+.wrapper-group0011{
+  width: 537px;
+    min-height: 540px;
+    background-image: url(../img/aboute/svg333333.svg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 72%;
+    top: 243px;
+}
+.wrapper-group0012{
+  width: 129px;
+    min-height: 129px;
+    background-image: url(../img/aboute/Group99.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 81%;
+    position: absolute;
+    top: 535px;
+}
+.wrapper-group0013{
+  width: 347px;
+  min-height: 347px;
+  background-image: url(../img/aboute/av1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 62%;
+  top: 252px;
+}
+.wrapper-group0014{
+  width: 19px;
+  min-height: 19px;
+  background-image: url(../img/aboute/radius000.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 61%;
+  top: 597px;
+}
+.wrapper-group0015{
+  position: absolute;
+  width: 129px;
+  min-height: 129px;
+  background-image: url(../img/aboute/zzz.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 20px;
+  left: 209px;
+}
+.wrapper-group0016{
+  position: absolute;
+  width: 125px;
+  min-height: 125px;
+  background-image: url(../img/aboute/ccc.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 531px;
+  left: 29%;
+}
+
+.content-hub{
+  width: 100%;
+    position: absolute;
+    right: 13%;
+}
+.container-menu-hub{
+  position: relative;
+  left: 15%;
+  top: 42px;
+}
+.container-menu-hub h1{
+  width: 477px;
+  min-height: 48px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+padding: 20px 0px;
+
+}
+.content-cont h1{
+  width: 366px;
+  min-height: 34px;
+font-family: Montserrat arm;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.colibure-content span{
+  width: 335px;
+  min-height: 24px;
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFFB2;
+
+}
 /* Մեր մասին About section end */
 
 
@@ -1312,7 +1545,9 @@ color: #F6F6F6B2;
   align-items: flex-start;
   gap: 50px;
 }
-
+.container-adress a{
+  z-index: 5;
+}
 .container-footer-menuHub {
   width: 208px;
   font-family: Montserrat arm;
