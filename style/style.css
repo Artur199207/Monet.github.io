@@ -361,7 +361,7 @@ z-index: 4;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #f6f6f6;
 }
 
@@ -870,6 +870,163 @@ z-index: 4;
   pointer-events: none;
 }
 
+
+
+
+/* Մեր մասին About section start */
+.container-about{
+width: 100%;
+overflow: hidden;
+background: linear-gradient(100.09deg, #0A30A3 0%, #001447 58.57%);
+}
+.wrapper-aboute{
+  position: relative;
+  width: 100%;
+  min-height: 804px;
+  z-index: 1;
+}
+.erapper-ellips-aboute{
+  width: 557px;
+  min-height: 660px;
+  position: absolute;
+  background-image: url(../img/aboute/radius5050.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 167px;
+}
+.wrapper-radius1{
+  width: 299px;
+  min-height: 249px;
+  position: absolute;
+  background-image: url(../img/aboute/radius01.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper-radius2{
+  width: 394px;
+  min-height: 345px;
+  position: absolute;
+  background-image: url(../img/aboute/radius2.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 81%;
+}
+.wrapper-radius3{
+  position: absolute;
+    width: 677px;
+    min-height: 370px;
+    background-image: url(../img/aboute/radius03.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 43%;
+    left: 45%;
+}
+.container-abouteClick{
+  padding: 20px 0;
+}
+.wrapper-abouteFlex{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 65px;
+  padding: 70px 0;
+}
+.wrapper-abouteMenu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.wrapper-abouteMenu li a{
+  width: 75px;
+  font-family: Montserrat arm;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #FFFFFF;
+cursor: pointer;
+  text-decoration: none;
+}
+.wrapper-abouteMenu li:hover a{
+  color: #FFB763;
+}
+.wrapper-abouteMenu li:active a{
+  color: #FF7233;
+}
+.wrapper-abouteText{
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrapper-abouteText h1{
+  width: 435px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.wrapper-abouteOldInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-abouteOldInfo h1{
+  width: 498px;
+font-family: Montserrat arm;
+font-size: 30px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+color: #F6F6F6;
+
+}
+.wrapper-abouteDinamick{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper-abouteDinamick span{
+  width: 1127px;
+    font-family: Montserrat arm;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2F2F2B2;
+
+}
+/* Մեր մասին About section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-footer {
   position: relative;
   width: 100%;
@@ -1078,6 +1235,7 @@ z-index: 4;
 }
 .logo-monet-footer {
   z-index: 2;
+  pointer-events: none;
 }
 .footer-end {
   position: absolute;
