@@ -22,6 +22,7 @@ a {
 }
 
 .logo a img {
+  pointer-events: none;
   padding: 16px 16px;
 }
 
@@ -179,6 +180,7 @@ a {
   width: 268px;
   top: 0;
   left: 0;
+  pointer-events: none;
 }
 
 .container-vector2 {
@@ -186,12 +188,14 @@ a {
   left: 0px;
   top: 0px;
   width: 480px;
+  pointer-events: none;
 }
 
 .container-group {
   position: absolute;
   top: 40%;
   left: 53px;
+  pointer-events: none;
 }
 
 .container-block-welcome {
@@ -265,18 +269,21 @@ z-index: 4;
   background-blend-mode: overlay;
   mix-blend-mode: overlay;
   bottom: 81%;
+  pointer-events: none;
 }
 
 .container-vector4 {
   position: absolute;
   left: 49%;
   bottom: 98%;
+  pointer-events: none;
 }
 
 .container-vector5 {
   position: absolute;
   top: 25%;
   left: 46%;
+  pointer-events: none;
 }
 
 .container-img-vector6 {
@@ -297,6 +304,7 @@ z-index: 4;
   position: absolute;
   top: 73%;
   left: 28%;
+  pointer-events: none;
 }
 
 .container-vector13 {
@@ -304,6 +312,7 @@ z-index: 4;
   left: 83%;
   bottom: 142px;
   z-index: 20;
+  pointer-events: none;
 }
 
 .container-vector14 {
@@ -311,6 +320,7 @@ z-index: 4;
   bottom: 77%;
   left: 85%;
   width: 364px;
+  pointer-events: none;
 }
 
 .container-working {
@@ -462,6 +472,7 @@ z-index: 4;
   position: absolute;
   left: 72%;
   bottom: 7%;
+  pointer-events: none;
 }
 
 .container-vector31 {
@@ -469,18 +480,21 @@ z-index: 4;
   left: 55%;
   top: 83%;
   width: 85px;
+  pointer-events: none;
 }
 
 .container-vector32 {
   position: absolute;
   bottom: 78%;
   left: 12%;
+  pointer-events: none;
 }
 
 .container-vector33 {
   position: absolute;
   bottom: 80%;
   left: 27%;
+  pointer-events: none;
 }
 
 .wrapper-section-vectors {
@@ -508,6 +522,7 @@ z-index: 4;
   position: absolute;
   top: 76px;
   left: 5%;
+  pointer-events: none;
 }
 
 .wrapper-info-ellips h3 {
@@ -536,6 +551,7 @@ z-index: 4;
   position: absolute;
   top: 69%;
   left: 46%;
+  pointer-events: none;
 }
 
 .container-vector40 {
@@ -543,6 +559,7 @@ z-index: 4;
   left: 77%;
   bottom: 65%;
   width: 244px;
+  pointer-events: none;
 }
 
 .container-vector41 {
@@ -550,6 +567,7 @@ z-index: 4;
   left: 81%;
   top: 183px;
   width: 100px;
+  pointer-events: none;
 }
 
 .container-vector42 {
@@ -558,6 +576,7 @@ z-index: 4;
   top: 85%;
   left: 73%;
   z-index: 2;
+  pointer-events: none;
 }
 
 .container-vector36 {
@@ -565,6 +584,7 @@ z-index: 4;
   top: 95%;
   left: 138px;
   z-index: 2;
+  pointer-events: none;
 }
 
 .wrapper-section3 {
@@ -575,7 +595,9 @@ z-index: 4;
   overflow: hidden;
   background: linear-gradient(99.81deg, #0a30a3 -0.37%, #001447 55.23%);
 }
-
+.container-radius,.container-radius2,.container-radius3{
+  pointer-events: none;
+}
 .wrapper-section3-content {
   width: 100%;
   display: flex;
@@ -619,16 +641,19 @@ z-index: 4;
 .wrapper-image-people1 {
   width: 580px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .wrapper-image-people2 {
   width: 692px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .wrapper-image-people3 {
   width: 528px;
   z-index: 1;
+  pointer-events: none;
 }
 
 .vector-svg {
@@ -693,6 +718,7 @@ z-index: 4;
 
 .SvgGroup1 {
   width: 123px;
+  pointer-events: none;
 }
 
 .container-svg h3 {
@@ -719,10 +745,12 @@ z-index: 4;
 
 .SvgGroup2 {
   width: 98px;
+  pointer-events: none;
 }
 
 .SvgGroup3 {
   width: 88px;
+  pointer-events: none;
 }
 
 .wrapper-smoll-content .container > .row {
@@ -736,6 +764,7 @@ z-index: 4;
   position: absolute;
   top: 301px;
   right: 90%;
+  pointer-events: none;
 }
 
 .wrapper-svggroup2 {
@@ -743,6 +772,7 @@ z-index: 4;
   position: absolute;
   bottom: 78%;
   left: 55%;
+  pointer-events: none;
 }
 
 .wrapper-svggroup3 {
@@ -753,6 +783,7 @@ z-index: 4;
   mix-blend-mode: overlay;
   left: 79%;
   bottom: 121px;
+  pointer-events: none;
 }
 
 .wrapper-svggroup4 {
@@ -760,6 +791,7 @@ z-index: 4;
   width: 346px;
   left: 89%;
   bottom: 31%;
+  pointer-events: none;
 }
 
 .wrapper-colleg {
@@ -821,17 +853,21 @@ z-index: 4;
 .container-button-click:hover button {
   background: #ffb25f;
 }
-
+.wrapper-casio{
+  pointer-events: none;
+}
 .vector-svg30 {
   position: absolute;
   width: 620px;
   bottom: 64%;
   left: 78%;
+  pointer-events: none;
 }
 
 .container-group101 {
   position: absolute;
   width: 274px;
+  pointer-events: none;
 }
 
 .container-footer {
@@ -958,6 +994,7 @@ z-index: 4;
   text-align: center;
   color: #001447;
   padding: 10px;
+  z-index: 25;
 }
 .row-cols-auto.wrapper-hub-direction {
   display: flex;
@@ -1025,6 +1062,7 @@ z-index: 4;
   right: 75%;
   width: 616px;
   z-index: 1;
+  pointer-events: none;
 }
 .footer-line {
   position: absolute;
@@ -1033,9 +1071,10 @@ z-index: 4;
 }
 .footer-radius {
   position: absolute;
-  bottom: 68%;
-  left: 69%;
+  bottom: 72%;
+  left: 66%;
   z-index: 1;
+  pointer-events: none;
 }
 .logo-monet-footer {
   z-index: 2;
@@ -1044,6 +1083,7 @@ z-index: 4;
   position: absolute;
   bottom: 0%;
   left: 54%;
+  pointer-events: none;
 }
 
 @media (max-width: 700px) {
