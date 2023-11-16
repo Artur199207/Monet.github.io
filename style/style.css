@@ -1979,6 +1979,9 @@ color: #FF9149;
 .container-learning img{
   margin-left: 5px;
 }
+.container-learning a{
+  text-decoration: none !important;
+}
 /* LawPage end */
 
 
@@ -2263,7 +2266,11 @@ color: #FF9149;
       }
 }
 
-
+@media (max-width: 550px){
+  .container-textareal textarea{
+    width: 309px;
+  }
+}
 @media (min-width: 1200px) {
 
   .container,
