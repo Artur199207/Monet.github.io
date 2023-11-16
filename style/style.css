@@ -1563,7 +1563,7 @@ a {
   top: 50px;
 }
 
-.wrapper-reportstext1 span {
+.wrapper-reportstext1 a span {
   width: 459px;
   min-height: 24px;
   font-family: Montserrat arm;
@@ -1574,6 +1574,9 @@ a {
   text-align: left;
   color: #F6F6F6B2;
 
+}
+.wrapper-reportstext1 a{
+text-decoration: none !important;
 }
 
 /* Reports end */
@@ -1888,10 +1891,21 @@ border: none;
 }
 /* Partner Page end */
 
+.btn-link img{
+  transform: rotate(180deg) !important;
+}
+.collapsed img{
+  transform: rotate(0deg) !important;
+}
+
+
+
+
+
 /* LawPage start */
 .wrapper-law{
   width: 100%;
-  min-height: 1511px;
+  min-height: 1582px;
 }
 .elipversion1{
   width: 557px;
@@ -2218,6 +2232,7 @@ color: #FF9149;
   position: absolute;
   bottom: 0%;
   left: 79%;
+  z-index: 1;
 }
 
 .footer-radius {
@@ -2239,7 +2254,10 @@ color: #FF9149;
   left: 51%;
   pointer-events: none;
 }
-
+.hub-icon{
+  position: relative;
+  z-index: 5;
+}
 @media (max-width: 700px) {
 
   .wrapper-navbar .links,
