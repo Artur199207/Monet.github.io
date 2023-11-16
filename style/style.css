@@ -1844,6 +1844,16 @@ padding: 10px 0;
 border-radius: 32px;
 border: none;
 }
+.elip1{
+  width: 557px;
+  min-height: 660px;
+  position: absolute;
+  background-image: url(../img/aboute/radius5050.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 380px;
+}
 .container-controll:hover {
   border: 2px solid #FFB25F;
 }
@@ -1878,7 +1888,98 @@ border: none;
 }
 /* Partner Page end */
 
+/* LawPage start */
+.wrapper-law{
+  width: 100%;
+  min-height: 1511px;
+}
+.elipversion1{
+  width: 557px;
+  min-height: 660px;
+  position: absolute;
+  background-image: url(../img/aboute/radius5050.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 60%
+}
+.wrapper-reportstext1 h1{
+width: 362px;
+min-height: 48px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
 
+}
+.wrapper-regulation{
+  position: relative;
+  left: 22%;
+  top: 65px;
+}
+
+.wrapper-laws h1{
+  max-width: 481px;
+  width: 100%;
+  min-height: 42px;
+font-family: Montserrat arm;
+font-size: 30px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.container-lawclick{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 1425px;
+  width: 100%;
+  min-height: 1038px;
+  border-radius: 40px;
+  padding-left: 50px;
+  background: linear-gradient(122.6deg, rgba(7, 40, 138, 0.92) 0.92%, rgba(0, 20, 71, 0.92) 48.5%);
+}
+.container-billing span{
+  max-width: 1294px;
+  width: 100%;
+  min-height: 24px;
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.container-learning span{
+  max-width: 158px;
+  width: 100%;
+  min-height: 24px;
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF9149;
+
+}
+.container-learning a img{
+  padding: 20px 0px;
+}
+.container-learning img{
+  margin-left: 5px;
+}
+/* LawPage end */
 
 
 .container-footer {
@@ -2154,7 +2255,14 @@ border: none;
   .wrapper-dropdown-menu .closeIcon {
     display: block;
   }
+  .container-lawclick{
+    padding-left: 0px !important;
+      }
+      .container-partner-form{
+       margin-right: 158px;
+      }
 }
+
 
 @media (min-width: 1200px) {
 
