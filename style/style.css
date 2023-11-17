@@ -2093,11 +2093,96 @@ color: #FFFFFF;
 
 }
 
-
-
-
-
 /* Consume page end */
+
+/* Limited start */
+.limitid-test{
+  max-width: 204px;
+  width: 100%;
+}
+.wrapper-limited h1{
+
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+position: relative;
+}
+.container-limit{
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.commision-wrapper{
+  padding: 18px 0;
+}
+.wrapper-paymants h1{
+
+font-family: Montserrat arm;
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.limit-left{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.container-charging span{
+
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+}
+.change-color h1{
+  color: #BDBDBD !important;
+
+}
+.container-commision span{
+
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.limit-rigth{
+  position: relative;
+  top: 79px;
+  left: 55px;
+}
+.limit-rigth h1{
+
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+/* Limited end */
+
+
+
+
+
 
 .container-footer {
   position: relative;
@@ -2359,7 +2444,6 @@ color: #FFFFFF;
   z-index: 5;
 }
 @media (max-width: 700px) {
-
   .wrapper-navbar .links,
   .wrapper-navbar .dropdown {
     display: none;
@@ -2390,7 +2474,6 @@ color: #FFFFFF;
   }
 }
 @media (min-width: 1200px) {
-
   .container,
   .container-lg,
   .container-md,
