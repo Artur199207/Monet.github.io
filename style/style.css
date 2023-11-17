@@ -1999,6 +1999,106 @@ color: #FF9149;
 /* LawPage end */
 
 
+/* Consume page start */
+.wrapper-consume h1{
+
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+
+}
+.wrapper-onlytext11{
+  font-family: Montserrat arm;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
+
+}
+.container-showclick{
+  max-width: 1433px;
+  width: 100%;
+  min-height: 1616px;
+  margin: auto;
+  background: #001447;
+  border-radius: 40px;
+  z-index: 5;
+  position: relative;
+  margin-bottom: 120px;
+}
+.elipversion12{
+  width: 557px;
+    min-height: 660px;
+    position: absolute;
+    background-image: url(../img/aboute/radius5050.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 69%;
+    z-index: 1;
+    left: 0px;
+}
+.consum-link{
+  position: relative;
+  z-index: 5;
+}
+.consume-flex{
+  position: relative;
+  z-index: 5;
+}
+.container-procedure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.container-procedur1{
+  max-width: 1285px;
+  width: 100%;
+  min-height: 1480px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 57px 0;
+  justify-content: space-around;
+}
+.container-time h1{
+  max-width: 774px;
+  width: 100%;
+  min-height: 40px;
+  font-family: Montserrat arm;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.clients-wrapper{
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+
+
+
+
+/* Consume page end */
+
 .container-footer {
   position: relative;
   width: 100%;
