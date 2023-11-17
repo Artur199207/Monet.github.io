@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./sources/Mardoto-Italic.glyphs" />
     <link rel="stylesheet" href="./sources/Mardoto-Roman.glyphs" />
-    <link rel="icon" href="./img/Group-logo.png" type="Monet" />
+    <link rel="icon" href="./img/LogoMonet.svg" type="Monet" />
     <link rel="stylesheet" href="./style/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="./style/bootstrap.min.css" asp-append-version="true" />
     <title>Դրույթներ և պայմաններ</title>
@@ -15,60 +15,72 @@
 <body>
     <header class="wrapper-header">
         <div class="wrapper-navbar">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="./img/Group-logo.png" alt="Monet-logo" />
-                </a>
+         
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./img/LogoMonet.svg" alt="Monet-logo" />
+            </a>
+          </div>
+          <ul class="links">
+            <li><a href="./about.html">Մեր մասին</a></li>
+            <li><a href="#">Ծառայություններ</a></li>
+            <li><a href="./partner.html">Դառնալ գործընկեր</a></li>
+          </ul>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle btn-oldClick"
+              type="button"
+              data-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="./img/arm.svg" alt="/Flag/Armenia" />
+  
+              <span>Հայ</span>
+            </button>
+            <div class="dropdown-menu">
+              <button class="dropdown-item" type="button">
+                <img src="./img/us.svg" alt="/Flag/Armenia" />
+                <span>Eng</span>
+              </button>
+              <button class="dropdown-item" type="button">
+                <img src="./img/ru.svg" alt="/Flag/Armenia" />
+                <span>Rus</span>
+              </button>
             </div>
-            <ul class="links ">
-                <li><a href="./about.html">Մեր մասին</a></li>
-                <li><a href="#">Ծառայություններ</a></li>
-                <li><a href="./partner.html">Դառնալ գործընկեր</a></li>
-            </ul>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                    aria-expanded="false">
-                    <img src="./img/armenia1.png" alt="/Flag/Armenia" />
-
-                    <span>Հայ</span>
-                </button>
-                <div class="dropdown-menu">
-                    <button class="dropdown-item" type="button">
-                        <img src="./img/us.png" alt="/Flag/Armenia" />
-                        <span>Eng</span>
-                    </button>
-                    <button class="dropdown-item" type="button">
-                        <img src="./img/rus.png" alt="/Flag/Armenia" />
-                        <span>Rus</span>
-                    </button>
+          </div>
+          <div class="toggle-btn">
+            <img src="./img/Frame65.png" alt="Menu-bars" class="openIcon" />
+          </div>
+  
+  
+  
+  
+  
+  
+  
+          <div class="wrapper-dropdown-menu">
+            <div class="wrapper-open-lenguage ">
+              <div class="nav-toggle">
+                <div class="toggle-botton">
+                <img src="./img/Menuversion.png" alt="">
                 </div>
+              </div>
+              
+              <div class="overlay">
+                <nav class="main-nav">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div class="toggle-btn">
-                <img src="./img/Frame65.png" alt="Menu-bars" class="openIcon" />
-            </div>
-            <div class="wrapper-dropdown-menu">
-                <div class="wrapper-open-lenguage">
-                    <img src="./img/Menuversion.png" alt="Menu-bars" class="closeIcon" />
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"
-                        aria-expanded="false">
-                        <img src="./img/armenia1.png" alt="/Flag/Armenia" />
-
-                        <span>Հայ</span>
-                    </button>
-                    <div class="dropdown-menu">
-                        <button class="dropdown-item" type="button">
-                            <img src="./img/us.png" alt="/Flag/Armenia" />
-                            <span>Eng</span>
-                        </button>
-                        <button class="dropdown-item" type="button">
-                            <img src="./img/rus.png" alt="/Flag/Armenia" />
-                            <span>Rus</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </header>
+      </header>
 
     <section class="container-about">
         <div class="wrapper-aboute wrapper-law">
@@ -316,7 +328,7 @@
             <img src="./img/footer-end.svg" alt="/image/border" class="footer-end" />
         </div>
     </footer>
-
+    <script src='./script/jquery-2.2.4.min.js'></script>
     <script src="./script/script.js" asp-append-version="true"></script>
     <script src="./script/jquery.slim.min.js" asp-append-version="true"></script>
     <script src="./script/popper.min.js" asp-append-version="true"></script>

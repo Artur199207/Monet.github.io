@@ -1,20 +1,13 @@
-const toggleBtn = document.querySelector('.toggle-btn');
-const toggleBtnIcon = document.querySelector('.toggle-btn img');
-const dropDownOpen = document.querySelector('.wrapper-dropdown-menu');
+const response = document.querySelector('.wrapper-dropdown-menu');
 
 
-toggleBtn.onclick = function(){
-    dropDownOpen.classList.toggle('open');
-    const isOpen = dropDownOpen.classList.contains('open');
-    toggleBtnIcon.classList = isOpen
-    ? 'openIcon'
-    :'closeIcon'
-    document.querySelector('.openIcon').style.display = 'none'
-    document.querySelector('.closeIcon').style.display = 'block'
-}
-document.querySelector('.closeIcon').onclick = function(){
+
+$(function(){
+    $('.toggle-botton').on('click',function(){
+      $('.nav-toggle').toggleClass('is-active')
+    })
     
-   dropDownOpen.style.display = 'none';
-   document.querySelector('.openIcon').style.display = 'block'
-
-}
+    $('.main-nav li a').on('click',function(){
+      $('.nav-toggle').toggleClass('is-active');
+    })
+  })
