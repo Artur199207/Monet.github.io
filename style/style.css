@@ -142,7 +142,7 @@ a {
 display: block !important;
 }
 .linksopenhub li{
-  padding: 28px;
+  padding: 14px;
 }
 .container-location span{
   max-width: 208px;
@@ -2700,15 +2700,22 @@ color: #FFFFFFB2;
   }
   .container-open-hub{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 @media (max-width: 400px){
   .container-open-hub{
     width: calc(100%);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
+    position: relative;
+    right: 34px;
+  }
+  .toggle-botton{
+    position: absolute;
+    bottom: -17px;
+    right: 10px;
   }
   .linksopenhub li a{
     font-size: 14px;
