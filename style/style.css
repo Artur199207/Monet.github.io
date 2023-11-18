@@ -117,6 +117,63 @@ a {
   text-align: center !important;
 }
 
+.container-open-hub {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 30px;
+  padding: 24px 0px;
+}
+
+.dropdown-block .dropdown {
+  display: block !important;
+  width: 90px;
+}
+.openhubline{
+ 
+  width: 100%;
+  border: 1px solid #C2D3FF;
+  background: #C2D3FF;
+
+}
+.linksopenhub{
+  padding: 18px 0;
+display: block !important;
+}
+.linksopenhub li{
+  padding: 28px;
+}
+.container-location span{
+  max-width: 208px;
+  width: 100%;
+  min-height: 44px;
+  font-family: Montserrat arm;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFFB2;
+
+}
+.wrapper-location{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
 .dropdown-item span {
   width: 36px;
   min-height: 20px;
@@ -919,7 +976,7 @@ a {
   z-index: 1;
   background: #001447;
 
-  left: 0;
+  left: unset;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2610,9 +2667,7 @@ a {
     position: relative;
     justify-content: flex-start;
   }
-  .overlay{
-    left: 205px;
-  }
+
 }
 
 @media screen and (max-width: 886px) {
@@ -2626,30 +2681,39 @@ a {
   }
 
 }
-@media screen and (max-width: 700px) {
-
-  .overlay{
-    left: 150px;
-  }
-
-}
 
 
 @media (max-width: 550px) {
   .container-textareal textarea {
     width: 309px;
   }
+
   .wrapper-navbar {
     display: flex;
     position: relative;
     justify-content: flex-start;
-    
+
   }
-  .overlay{
+
+  .overlay {
     left: 115px;
   }
+  .container-open-hub{
+    display: flex;
+    justify-content: space-around;
+  }
 }
-
+@media (max-width: 400px){
+  .container-open-hub{
+    width: calc(100%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .linksopenhub li a{
+    font-size: 14px;
+  }
+}
 @media (min-width: 1200px) {
 
   .container,
