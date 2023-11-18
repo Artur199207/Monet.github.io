@@ -2702,6 +2702,10 @@ color: #FFFFFFB2;
     display: flex;
     justify-content: space-between;
   }
+  .toggle-botton{
+    position: relative;
+    right: 30px;
+  }
 }
 @media (max-width: 400px){
   .container-open-hub{
@@ -2715,7 +2719,7 @@ color: #FFFFFFB2;
   .toggle-botton{
     position: absolute;
     bottom: -17px;
-    right: 10px;
+    right: 0px;
   }
   .linksopenhub li a{
     font-size: 14px;
