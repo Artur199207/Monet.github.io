@@ -276,7 +276,7 @@ a {
 
 .container-group {
   position: absolute;
-  top: 36%;
+  top: 31%;
   left: 53px;
   pointer-events: none;
 }
@@ -349,7 +349,7 @@ a {
   height: 346.45px;
   flex-shrink: 0;
   position: absolute;
-  left: 39%;
+  left: 36%;
   background-blend-mode: overlay;
   mix-blend-mode: overlay;
   bottom: 81%;
@@ -365,24 +365,25 @@ a {
 
 .container-vector5 {
   position: absolute;
-  top: 25%;
-  left: 46%;
+  top: 14%;
+  left: 35%;
   pointer-events: none;
 }
 
 .container-img-vector6 {
-  width: 920px;
-  height: 766px;
-  background-image: url(../img/22222.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  position: relative;
-  left: 49%;
-  top: 188px;
-  overflow: hidden;
-  z-index: 1;
+width: 940px;
+    height: 923px;
+    background-image: url(../img/22222.svg);
+    background-repeat: no-repeat;
+    background-size: 116% 158%;
+    background-position: right;
+    position: relative;
+    left: 43%;
+    top: 36px;
+    overflow: hidden;
+    z-index: 1;
 }
+
 
 
 .container-vector9 {
@@ -417,6 +418,7 @@ a {
   background-size: cover;
   background-position: center;
   z-index: 1;
+  bottom: 200px;
 }
 
 .container-position-flex {
