@@ -1,71 +1,71 @@
 @font-face {
   font-family: '../fonts/Montserratarm-Black/Montserratarm-Black';
-  src: url('../fonts/Montserratarm-Black/Montserratarm-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Black/Montserratarm-Black.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Black/Montserratarm-Black.woff') format('woff'), url('../fonts/Montserratarm-Black/Montserratarm-Black.ttf')  format('truetype'), url('../fonts/Montserratarm-Black/Montserratarm-Black.svg#Montserratarm-Black') format('svg');
+  src: url('../fonts/Montserratarm-Black/Montserratarm-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Black/Montserratarm-Black.otf') format('opentype'),
+    url('../fonts/Montserratarm-Black/Montserratarm-Black.woff') format('woff'), url('../fonts/Montserratarm-Black/Montserratarm-Black.ttf') format('truetype'), url('../fonts/Montserratarm-Black/Montserratarm-Black.svg#Montserratarm-Black') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-Bold/Montserratarm-Bold';
-  src: url('../fonts/Montserratarm-Bold/Montserratarm-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Bold/Montserratarm-Bold.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Bold/Montserratarm-Bold.woff') format('woff'), url('../fonts/Montserratarm-Bold/Montserratarm-Bold.ttf')  format('truetype'), url('../fonts/Montserratarm-Bold/Montserratarm-Bold.svg#Montserratarm-Bold') format('svg');
+  src: url('../fonts/Montserratarm-Bold/Montserratarm-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Bold/Montserratarm-Bold.otf') format('opentype'),
+    url('../fonts/Montserratarm-Bold/Montserratarm-Bold.woff') format('woff'), url('../fonts/Montserratarm-Bold/Montserratarm-Bold.ttf') format('truetype'), url('../fonts/Montserratarm-Bold/Montserratarm-Bold.svg#Montserratarm-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold';
-  src: url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.otf')  format('opentype'),
-       url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.woff') format('woff'), url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.ttf')  format('truetype'), url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.svg#Montserratarm-ExtraBold') format('svg');
+  src: url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.otf') format('opentype'),
+    url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.woff') format('woff'), url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.ttf') format('truetype'), url('../fonts/Montserratarm-ExtraBold/Montserratarm-ExtraBold.svg#Montserratarm-ExtraBold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight';
-  src: url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.otf')  format('opentype'),
-       url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.woff') format('woff'), url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.ttf')  format('truetype'), url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.svg#Montserratarm-ExtraLight') format('svg');
+  src: url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.otf') format('opentype'),
+    url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.woff') format('woff'), url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.ttf') format('truetype'), url('../fonts/Montserratarm-ExtraLight/Montserratarm-ExtraLight.svg#Montserratarm-ExtraLight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-Light/Montserratarm-Light';
-  src: url('../fonts/Montserratarm-Light/Montserratarm-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Light/Montserratarm-Light.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Light/Montserratarm-Light.woff') format('woff'), url('../fonts/Montserratarm-Light/Montserratarm-Light.ttf')  format('truetype'), url('../fonts/Montserratarm-Light/Montserratarm-Light.svg#Montserratarm-Light') format('svg');
+  src: url('../fonts/Montserratarm-Light/Montserratarm-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Light/Montserratarm-Light.otf') format('opentype'),
+    url('../fonts/Montserratarm-Light/Montserratarm-Light.woff') format('woff'), url('../fonts/Montserratarm-Light/Montserratarm-Light.ttf') format('truetype'), url('../fonts/Montserratarm-Light/Montserratarm-Light.svg#Montserratarm-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-Medium/Montserratarm-Medium';
-  src: url('../fonts/Montserratarm-Medium/Montserratarm-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Medium/Montserratarm-Medium.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Medium/Montserratarm-Medium.woff') format('woff'), url('../fonts/Montserratarm-Medium/Montserratarm-Medium.ttf')  format('truetype'), url('../fonts/Montserratarm-Medium/Montserratarm-Medium.svg#Montserratarm-Medium') format('svg');
+  src: url('../fonts/Montserratarm-Medium/Montserratarm-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Medium/Montserratarm-Medium.otf') format('opentype'),
+    url('../fonts/Montserratarm-Medium/Montserratarm-Medium.woff') format('woff'), url('../fonts/Montserratarm-Medium/Montserratarm-Medium.ttf') format('truetype'), url('../fonts/Montserratarm-Medium/Montserratarm-Medium.svg#Montserratarm-Medium') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-Regular/Montserratarm-Regular';
-  src: url('../fonts/Montserratarm-Regular/Montserratarm-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Regular/Montserratarm-Regular.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Regular/Montserratarm-Regular.woff') format('woff'), url('../fonts/Montserratarm-Regular/Montserratarm-Regular.ttf')  format('truetype'), url('../fonts/Montserratarm-Regular/Montserratarm-Regular.svg#Montserratarm-Regular') format('svg');
+  src: url('../fonts/Montserratarm-Regular/Montserratarm-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Regular/Montserratarm-Regular.otf') format('opentype'),
+    url('../fonts/Montserratarm-Regular/Montserratarm-Regular.woff') format('woff'), url('../fonts/Montserratarm-Regular/Montserratarm-Regular.ttf') format('truetype'), url('../fonts/Montserratarm-Regular/Montserratarm-Regular.svg#Montserratarm-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold';
-  src: url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.otf')  format('opentype'),
-       url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.woff') format('woff'), url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.ttf')  format('truetype'), url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.svg#Montserratarm-SemiBold') format('svg');
+  src: url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.otf') format('opentype'),
+    url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.woff') format('woff'), url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.ttf') format('truetype'), url('../fonts/Montserratarm-SemiBold/Montserratarm-SemiBold.svg#Montserratarm-SemiBold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: '../fonts/Montserratarm-Thin/Montserratarm-Thin';
-  src: url('../fonts/Montserratarm-Thin/Montserratarm-Thin.eot?#iefix') format('embedded-opentype'),  url('../fonts/Montserratarm-Thin/Montserratarm-Thin.otf')  format('opentype'),
-       url('../fonts/Montserratarm-Thin/Montserratarm-Thin.woff') format('woff'), url('../fonts/Montserratarm-Thin/Montserratarm-Thin.ttf')  format('truetype'), url('../fonts/Montserratarm-Thin/Montserratarm-Thin.svg#Montserratarm-Thin') format('svg');
+  src: url('../fonts/Montserratarm-Thin/Montserratarm-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserratarm-Thin/Montserratarm-Thin.otf') format('opentype'),
+    url('../fonts/Montserratarm-Thin/Montserratarm-Thin.woff') format('woff'), url('../fonts/Montserratarm-Thin/Montserratarm-Thin.ttf') format('truetype'), url('../fonts/Montserratarm-Thin/Montserratarm-Thin.svg#Montserratarm-Thin') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -902,7 +902,7 @@ a {
 }
 
 .container-svg h3 {
- 
+
   font-family: Montserrat arm;
   font-size: 24px;
   font-weight: 500;
@@ -967,10 +967,10 @@ a {
 
 .wrapper-svggroup4 {
   position: absolute;
-    width: 346px;
-    left: 98%;
-    bottom: 19%;
-    pointer-events: none;
+  width: 346px;
+  left: 98%;
+  bottom: 19%;
+  pointer-events: none;
 }
 
 .wrapper-colleg {
@@ -1070,7 +1070,7 @@ a {
   position: fixed;
   z-index: 1;
   background: #001447;
-
+z-index: 200 !important;
   left: unset;
   top: 0;
   right: 0;
@@ -1265,9 +1265,11 @@ a {
   align-items: center;
   justify-content: center;
 }
-.container-none{
+
+.container-none {
   display: none;
 }
+
 .wrapper-abouteOldInfo h1 {
   width: 498px;
   font-family: Montserrat arm;
@@ -2031,6 +2033,9 @@ a {
   max-width: 1000px;
   width: 100%;
 }
+.display-footer-hide,.container-footer-menuHub{
+  z-index: 10;
+}
 
 .container-label {
   width: 396px;
@@ -2061,6 +2066,9 @@ a {
 
 }
 
+.container-slider-section {
+  display: none;
+}
 
 .container-messige span {
   width: 509px;
@@ -2166,7 +2174,8 @@ a {
 .collapsed img {
   transform: rotate(0deg) !important;
 }
-.none-mobile{
+
+.none-mobile {
   display: none;
 }
 
@@ -2385,6 +2394,34 @@ a {
 
 /* Consume page end */
 
+.wrapper-flex-borderRadius {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper-flex-borderRadius .onclick {
+  width: 10px;
+  min-height: 10px;
+
+  border-radius: 10px;
+
+}
+
+.wrapper-flex-borderRadius button {
+  width: 10px;
+  min-height: 10px;
+  border-radius: 10px;
+  background: none;
+  border: 1px solid #FFB763;
+}
+
+
+
+
+
+
+
 /* Limited start */
 .limitid-test {
   max-width: 204px;
@@ -2536,9 +2573,9 @@ a {
 .container-adress a {
   z-index: 5;
 }
-.container-footer-menuHub{
-  z-index: 10;
-}
+
+
+
 .container-footer-menuHub h3 {
   width: 208px;
   font-family: Montserrat arm;
@@ -2685,7 +2722,8 @@ a {
   flex-wrap: wrap;
   gap: 26px;
 }
-.display-footer-hide h3{
+
+.display-footer-hide h3 {
   min-height: 17px;
   font-family: Montserrat arm;
   font-size: 14px;
@@ -2699,6 +2737,7 @@ a {
   z-index: 10;
 
 }
+
 .footer-menu-hub li a {
   width: 129px;
   font-family: Montserrat arm;
@@ -2720,10 +2759,12 @@ a {
 .footer-menu-hub li:active a {
   color: #ff7233;
 }
-.display-footer-hide{
+
+.display-footer-hide {
   position: relative;
   top: 17px;
 }
+
 .footer-images {
   position: absolute;
   bottom: 29%;
@@ -2739,9 +2780,11 @@ a {
   left: 79%;
   z-index: 1;
 }
-.container-footer-menuHub{
+
+.container-footer-menuHub {
   z-index: 10;
 }
+
 .footer-radius {
   position: absolute;
   bottom: 72%;
@@ -2842,10 +2885,11 @@ a {
     margin-bottom: 100px;
   }
 
-  .display-footer-hide{
+  .display-footer-hide {
     display: none;
   }
-  .container-footer-response{
+
+  .container-footer-response {
     justify-content: space-around;
   }
 }
@@ -2878,19 +2922,21 @@ a {
     display: none;
   }
 
- 
-.container-button-click{
-  margin-bottom: 60px;
-}
-.col-container-coleg{
-  display: none !important;
-}
-.container-none{
-  display: block;
-  position: relative;
+
+  .container-button-click {
+    margin-bottom: 60px;
+  }
+
+  .col-container-coleg {
+    display: none !important;
+  }
+
+  .container-none {
+    display: block;
+    position: relative;
     bottom: 224px;
     padding-inline: 50px;
-}
+  }
 }
 
 
@@ -2918,9 +2964,10 @@ a {
   .col-response-img {
     padding: 35px 0;
   }
- .container-adress{
-  display: none;
- }
+
+  .container-adress {
+    display: none;
+  }
 }
 
 
@@ -2936,11 +2983,12 @@ a {
     width: 644px;
     left: 51%;
     top: 85px;
-}
-  
-.container-vector14{
-  display: none;
-}
+  }
+
+  .container-vector14 {
+    display: none;
+  }
+
   .container-vector32 {
     display: none;
   }
@@ -2997,17 +3045,20 @@ a {
   .wrapper-image-people1 {
     width: 300px;
   }
-  .container-footer-response{
+
+  .container-footer-response {
     flex-wrap: wrap !important;
     flex-direction: column;
     align-items: center;
   }
-  .container-adress{
+
+  .container-adress {
     display: block;
-   }
-   .display-footer-hide{
+  }
+
+  .display-footer-hide {
     display: block;
-   }
+  }
 }
 
 
@@ -3025,18 +3076,20 @@ a {
     right: 48px;
   }
 
-.container-response-colspan{
-  flex-direction: column;
-  gap: 59px;
-  margin-bottom: 62px;
-}
-.wrapper-svggroup2{
-  display: none;
-}
-.container-svg{
-  display: flex;
+  .container-response-colspan {
+    flex-direction: column;
+    gap: 59px;
+    margin-bottom: 62px;
+  }
 
-}
+  .wrapper-svggroup2 {
+    display: none;
+  }
+
+  .container-svg {
+    display: flex;
+
+  }
 
 
 }
@@ -3176,21 +3229,24 @@ a {
   .wrapper-dropdown-menu {
     display: block;
   }
- 
+
 }
-@media (max-width:782px){
- 
-  .wrapper-casio{
-max-width: 180px;
-min-height: 58px;
+
+@media (max-width:782px) {
+
+  .wrapper-casio {
+    max-width: 180px;
+    min-height: 58px;
   }
-  .rowspan-contentresponse{
+
+  .rowspan-contentresponse {
     flex-wrap: nowrap !important;
   }
-  .content.container-content>.wrapper-content-container{
+
+  .content.container-content>.wrapper-content-container {
     min-height: 250px;
   }
-  
+
 }
 
 
@@ -3284,25 +3340,37 @@ min-height: 58px;
   .wrapper-image-people1 {
     width: 380px;
   }
-  .wrapper-image-people3{
+
+  .wrapper-image-people3 {
     display: none;
-   }
-   .none-mobile{
+  }
+
+  .none-mobile {
     display: block;
     z-index: 10;
-   }
-   .container-vector40{
+  }
+
+  .container-vector40 {
     display: block;
     left: 74%;
     top: 61%;
+  }
+
+  .container-vector41 {
+    display: block;
+    top: 80%;
+    left: 91%;
+  }
+
+  .container-slider-section {
+    display: block !important;
+    position: relative;
+    width: 200px;
+    top: 114px;
+  }
 }
-.container-vector41{
-  display: block;
-  top: 80%;
-  left: 91%;
-}
-}
-   }
+
+
 
 
 
@@ -3348,27 +3416,34 @@ min-height: 58px;
     color: #D0D0D0;
 
   }
- .rowspan-contentresponse{
-  position: relative;
-  right: 30px;
- }
- .container-footer-textEnd{
-  flex-direction: column-reverse;
-  
- }
- .footer-end{
-  bottom: 182px;
+
+  .rowspan-contentresponse {
+    position: relative;
+    right: 30px;
+  }
+
+  .container-footer-textEnd {
+    flex-direction: column-reverse;
+
+  }
+
+  .footer-end {
+    bottom: 182px;
     transform: rotate(88deg);
     left: -46px;
- }
- .display-footer-hide h3{
-  right: 0;
- }
+  }
 
- .res-foot{
-  display: block;
-  text-align: center !important;
- }
+  .display-footer-hide h3 {
+    right: 0;
+  }
+
+  .res-foot {
+    display: block;
+    text-align: center !important;
+  }
+  .container-button-click{
+    margin-bottom: 0px !important;
+  }
 
 }
 
@@ -3403,6 +3478,11 @@ min-height: 58px;
     color: #D0D0D0;
 
   }
+
+  .wrapper-casio {
+    width: 150px;
+  }
+ 
 }
 
 
@@ -3453,13 +3533,16 @@ min-height: 58px;
     left: 43px;
     left: 307px;
   }
-  .wrapper-svggroup{
-    left:10px;
+
+  .wrapper-svggroup {
+    left: 10px;
   }
-  .wrapper-svggroup3{
+
+  .wrapper-svggroup3 {
     left: 310px;
   }
-  .wrapper-svggroup4{
+
+  .wrapper-svggroup4 {
     left: 405px;
   }
 }
