@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Montserrat arm";
-  src: url(../fonts/ttf/Montserrat_am3-Bold.ttf);
-  src: url(../fonts/ttf/Montserrat_am3-Regular.ttf);
+  src: url('https://greghub.github.io/montserrat-arm/');
 }
 
 
