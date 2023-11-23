@@ -1039,6 +1039,8 @@ margin: -7px 6px;
   border: 2px solid #FF7233;
   color: #FF7233;
 white-space: nowrap;
+padding: 0;
+text-align: center;
 }
 
 .wrapper-procedure-text {
@@ -1531,6 +1533,8 @@ white-space: nowrap;
 linear-gradient(0deg, #FF7233, #FF7233);
 border: 2px solid #FF7233;
 color:  #FF7233;
+padding: 0;
+text-align: center;
 }
 
 
