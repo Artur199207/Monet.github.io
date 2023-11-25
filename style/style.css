@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Montserrat arm !important;
-}
 li {
   list-style: none;
 }
@@ -30,7 +27,6 @@ a:disabled{
 }
 .container__block {
   width: 100%;
-
   background-repeat: no-repeat;
   background-size: cover !important;
   background-image: url(../img/section/HomePageView1.svg);
@@ -39,7 +35,7 @@ a:disabled{
 .wrapper-header {
   position: relative;
   width: 100%;
-  padding: 0.2rem rem;
+  padding: 0.2rem;
   background: #01164e;
   box-shadow: 0px 4px 30px 0px #0f3aa6;
   z-index: 2;
@@ -1874,45 +1870,13 @@ color: #F6F6F6B2;
 /* Մեր մասին About section end */
 
 /* Reports start */
-.wrapper-reportstext h1 {
-  width: 384px;
-  min-height: 48px;
-  font-family: Montserrat arm;
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #f6f6f6;
-}
-
-.wrapper-reportstext {
-  position: absolute;
-  left: 5%;
-  top: 50px;
-}
-
-.wrapper-reportstext1 {
-  position: absolute;
-  left: 0;
-  top: 50px;
-  margin: 4% -2%;
-}
-
-.wrapper-reportstext1 a span {
-  width: 459px;
-  min-height: 24px;
-  font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #f6f6f6b2;
-}
-
-.wrapper-reportstext1 a {
-  text-decoration: none !important;
+.container-reports-main{
+  width: 100%;
+  min-height: 1347px;
+  background-image: url(../img/section/AccountingPageView.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Reports end */
@@ -1927,118 +1891,183 @@ color: #F6F6F6B2;
   text-align: left;
   color: #ffffff;
 }
+.wrapper-repost{
+  width: 109px;
+  min-height: 15px;
+  font-family: Montserrat arm;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #FFFFFF;
 
+}
+.container-repost-text{
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  margin: 4.8% 13%;
+}
+.reports-footer{
+  margin: 42% 0;
+}
+.container-repost-text h1{
+  width: 384px;
+  min-height: 48px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #F6F6F6;
+
+}
+.container-repost-text span{
+  width: 459px;
+  min-height: 24px;
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6B2;
+
+}
 /* Asked container start */
-.wrapper-repost {
+.container-main-asked{
   width: 100%;
-  min-height: 1163px;
+  min-height: 1721px;
+  background-image: url(../img/section/FAQPageView.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.wrapper-aboute-position {
-  position: relative;
-  top: 58px;
+.text-asked{
+  width: 156px !important;
+}
+.wrapper-new-cont{
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin: 1.9% 12.8%;
 }
 
-.wrapper-repost-text h1 {
+.wrapper-new-cont span a{
+  width: 75px;
+  min-height: 15px;
+  font-family: Montserrat arm;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.wrapper-col{
+  width: 156px;
+  min-height: 15px;
+  font-family: Montserrat arm;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.01em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.wrapper-text-info{
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  margin: 5% 12.8%;
+}
+
+.wrapper-text-info h1{
   width: 441px;
   min-height: 48px;
-  font-family: Montserrat arm;
-  font-size: 34px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #f6f6f6;
-}
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
 
-.wrapper-dev1 span {
-  max-width: 863px;
-  width: 100%;
+}
+.wrapper-text-info span{
+  width: 863px;
   min-height: 48px;
-  font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #f2f2f2;
-  position: absolute;
-  top: 20px;
-}
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2F2F2;
 
-.container-dev2 h1 {
-  width: 182px;
+}
+.container-main-textoll h1{
+  width: 187px;
   min-height: 42px;
-  font-family: Montserrat arm;
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 42px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #f6f6f6;
-  position: relative;
-  left: 45%;
-  top: 60px;
-}
+font-family: Montserrat arm;
+font-size: 30px;
+font-weight: 500;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: center;
+color: #F6F6F6;
 
-.wrapper-dev-open {
-  max-width: 1431px;
-  width: 100%;
-  min-height: 580px;
-  position: relative;
-  top: 50px;
 }
-
-.backTransper {
-  background: transparent !important;
+.container-main-textoll{
+  margin: -2% 45%;
 }
-
-.bigcontent {
-  display: flex;
+#accordionExample{
+  width: 1431px;
+    border: 1px solid #FF9149;
+    margin: 5.5% 12.8%;
+}
+.card-header{
+  border: 1px solid #FF9149 !important;
+}
+.card{
+  background-color: unset !important;
+}
+.accordion>.card>.card-header{
+  border-bottom: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.flex-btn{
+  display: flex !important;
   justify-content: space-between;
-  align-items: center;
 }
-
-.bigcontent span {
-  width: 948px;
+.flex-btn h1{
+  width: 854px;
   min-height: 22px;
   font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fcfcfc;
-}
+font-size: 18px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FCFCFC;
 
-.bodycard-text span {
-  width: 100%;
+}
+.card-body span{
+  width: 1120px;
   min-height: 63px;
   font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fcfcfc;
-}
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FCFCFC;
 
-.card-header {
-  border: 1px solid #ff9149;
-}
-
-.card-body {
-  border: 1px solid #ff9149;
-  border-top: none !important;
-}
-
-.btn.focus,
-.btn:focus {
-  box-shadow: none !important;
-}
-
-.backTransper1 {
-  border: 1px solid #ff9149 !important;
 }
 
 /* Asked container end */
@@ -2071,9 +2100,9 @@ color: #F6F6F6B2;
 
 }
 .wrapper-abouteFlex{
-  margin: 0.5% 21%;
-  position: relative;
-  right: 11%;
+  margin: 2.5% 24%;
+    position: relative;
+    right: 11%;
 }
 
 .wrapper-partnerPage {
@@ -2155,7 +2184,18 @@ color: #F6F6F6B2;
   text-align: left;
   color: #aaaaaa;
 }
-
+.wrapper-partner-old h1{
+  width: 423px;
+  min-height: 48px;
+font-family: Montserrat arm;
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
+margin: 13% 22%;
+}
 .container-controll {
   width: 396px !important;
   height: 40px !important;
@@ -2273,21 +2313,21 @@ white-space: nowrap;
 }
 
 /* LawPage start */
+.container-Lowpage-main{
+  width: 100%;
+  min-height: 2087px;
+  background-image: url(../img/section/LawPageView.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .wrapper-law {
   width: 100%;
   min-height: 1582px;
 }
 
-.elipversion1 {
-  width: 557px;
-  min-height: 660px;
-  position: absolute;
-  background-image: url(../img/aboute/radius5050.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  bottom: 60%;
-}
+
 
 .wrapper-reportstext1 h1 {
   width: 362px;
@@ -2306,7 +2346,9 @@ white-space: nowrap;
   left: 22%;
   top: 65px;
 }
-
+.wrapper-laws{
+  margin: -1.9% 18%;
+}
 .wrapper-laws h1 {
   max-width: 481px;
   width: 100%;
@@ -2323,59 +2365,58 @@ white-space: nowrap;
 .container-lawclick {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around;
+ 
+  justify-content: space-evenly;
   margin: auto;
   max-width: 1425px;
   width: 100%;
   min-height: 1038px;
   border-radius: 40px;
-  padding-left: 50px;
   background: linear-gradient(
     122.6deg,
     rgba(7, 40, 138, 0.92) 0.92%,
     rgba(0, 20, 71, 0.92) 48.5%
   );
+  margin: 7% 13%;
+  padding-inline: 30px;
+}
+.container-info-text{
+  display: flex;
+  flex-direction: column;
+  margin: -1% 2.5%;
 }
 
-.container-billing span {
-  max-width: 1294px;
-  width: 100%;
+.container-info-text h1{
+  width: 1294px;
   min-height: 24px;
-  font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #f6f6f6;
-}
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #F6F6F6;
 
-.container-learning span {
-  max-width: 158px;
-  width: 100%;
+}
+.container-slag-vector{
+  display: flex;
+  gap: 10px;
+}
+.container-slag-vector span:nth-child(1){
+  width: 158px;
   min-height: 24px;
-  font-family: Montserrat arm;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ff9149;
+font-family: Montserrat arm;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF9149;
+cursor: pointer;
 }
-
-.container-learning a img {
-  padding: 20px 0px;
+.lawpage-footer{
+  margin: 12% 0;
 }
-
-.container-learning img {
-  margin-left: 5px;
-}
-
-.container-learning a {
-  text-decoration: none !important;
-}
-
 /* LawPage end */
 
 /* Consume page start */
